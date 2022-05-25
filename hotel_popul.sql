@@ -68,3 +68,85 @@ INSERT INTO Guest VALUES
 NULL,
 'wallace_kuhic@yahoo.com',
 59062477367);
+
+
+INSERT INTO Maid VALUES
+(1,
+'Denise',
+'Carson',
+501762443,
+'willard_walter@hotmail.com',
+93031961587,
+3200);
+INSERT INTO Maid VALUES
+(2,
+'Sheri',
+'Pratt',
+NULL,
+'lorenz.wolff48@yahoo.com',
+81081928744,
+3700);
+INSERT INTO Maid VALUES
+(3,
+'Adrienne',
+'Porter',
+206866967,
+'delphia42@yahoo.com',
+76030533661,
+3500);
+INSERT INTO Maid VALUES
+(4,
+'Melissa',
+'Davis',
+796890416,
+'mason.kunde@yahoo.com',
+75041757941,
+3500);
+INSERT INTO Maid VALUES
+(5,
+'Tiffany',
+'Carpenter',
+939152750,
+NULL,
+77122683448,
+4150);
+INSERT INTO Maid VALUES
+(6,
+'Megan',
+'Harris',
+616152408,
+'arnaldo.simonis@gmail.com',
+71102984569,
+4200);
+INSERT INTO Maid VALUES
+(7,
+'Natalie',
+'Ewing',
+NULL,
+'halie_orn0@gmail.com',
+93061554827,
+3350);
+INSERT INTO Maid VALUES
+(8,
+'Kimberly',
+'Haley',
+319591537,
+'tierra_swift@hotmail.com',
+84032787445,
+3200);
+INSERT INTO Maid VALUES
+(9,
+'Nicole',
+'Richards',
+609700389,
+NULL,
+91102488283,
+4500);
+INSERT INTO Maid VALUES
+(10,
+'Taylor',
+'Collins',
+626136003,
+'ari_klein63@hotmail.com',
+66010894165,
+3600);
