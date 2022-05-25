@@ -1,3 +1,5 @@
+REM ********GUEST********
+
 INSERT INTO Guest VALUES
 (1,
 'Kristen',
@@ -69,6 +71,8 @@ NULL,
 'wallace_kuhic@yahoo.com',
 59062477367);
 
+
+REM ********MAID********
 
 INSERT INTO Maid VALUES
 (1,
@@ -150,3 +154,157 @@ INSERT INTO Maid VALUES
 'ari_klein63@hotmail.com',
 66010894165,
 3600);
+
+
+REM ********ROOM********
+
+INSERT INTO Room VALUES
+(1,
+2,
+111,
+2,
+'Moderate Room');
+INSERT INTO Room VALUES
+(2,
+2,
+112,
+2,
+'Standard Room');
+INSERT INTO Room VALUES
+(3,
+3,
+113,
+4,
+'Family Room');
+INSERT INTO Room VALUES
+(4,
+6,
+114,
+4,
+'Family Room');
+INSERT INTO Room VALUES
+(5,
+10,
+115,
+4,
+'Deluxe Room');
+INSERT INTO Room VALUES
+(6,
+9,
+116,
+3,
+'Moderate Room');
+INSERT INTO Room VALUES
+(7,
+8,
+117,
+3,
+'Moderate Room');
+INSERT INTO Room VALUES
+(8,
+2,
+118,
+3,
+'Standard Room');
+INSERT INTO Room VALUES
+(9,
+1,
+119,
+2,
+'Standard Room');
+INSERT INTO Room VALUES
+(10,
+1,
+120,
+2,
+'Standard Room');
+INSERT INTO Room VALUES
+(11,
+4,
+211,
+2,
+'Standard Room');
+INSERT INTO Room VALUES
+(12,
+5,
+212,
+2,
+'Moderate Room');
+INSERT INTO Room VALUES
+(13,
+7,
+213,
+6,
+'Family Room');
+INSERT INTO Room VALUES
+(14,
+4,
+214,
+6,
+'Deluxe Room');
+INSERT INTO Room VALUES
+(15,
+8,
+215,
+6,
+'Family Room');
+INSERT INTO Room VALUES
+(16,
+8,
+216,
+4,
+'Standard Room');
+INSERT INTO Room VALUES
+(17,
+9,
+217,
+4,
+'Family Room');
+INSERT INTO Room VALUES
+(18,
+4,
+218,
+4,
+'Family Room');
+INSERT INTO Room VALUES
+(19,
+10,
+219,
+4,
+'Family Room');
+INSERT INTO Room VALUES
+(20,
+1,
+220,
+2,
+'Moderate Room');
+INSERT INTO Room VALUES
+(21,
+7,
+311,
+2,
+'Suite');
+INSERT INTO Room VALUES
+(22,
+8,
+312,
+3,
+'Deluxe Room');
+INSERT INTO Room VALUES
+(23,
+2,
+313,
+3,
+'Deluxe Room');
+INSERT INTO Room VALUES
+(24,
+4,
+314,
+2,
+'Suite');
+INSERT INTO Room VALUES
+(25,
+3,
+315,
+2,
+'Suite');
