@@ -308,3 +308,61 @@ INSERT INTO Room VALUES
 315,
 2,
 'Suite');
+
+
+REM ********PAYMENT********
+
+INSERT INTO Payment VALUES
+(1,
+130.00,
+'20-May-22',
+'18-May-22');
+INSERT INTO Payment VALUES
+(2,
+130.01,
+'20-May-22',
+'18-May-22');
+INSERT INTO Payment VALUES
+(3,
+199.99,
+'22-Apr-22',
+'20-Apr-22');
+INSERT INTO Payment VALUES
+(4,
+199.99,
+'22-Apr-22',
+'20-Apr-22');
+INSERT INTO Payment VALUES
+(5,
+150.00,
+'22-Apr-22',
+'20-Apr-22');
+INSERT INTO Payment VALUES
+(6,
+150.00,
+'22-Apr-22',
+'20-Apr-22');
+INSERT INTO Payment VALUES
+(7,
+120.00,
+'12-May-22',
+'10-May-21');
+INSERT INTO Payment VALUES
+(8,
+120.00,
+'12-May-21',
+'11-May-21');
+INSERT INTO Payment VALUES
+(9,
+300.00,
+'25-Mar-22',
+'22-Mar-22');
+INSERT INTO Payment VALUES
+(10,
+300.00,
+'25-Mar-22',
+'23-Mar-22');
+
+
+REM ********RESERVATION********
+
