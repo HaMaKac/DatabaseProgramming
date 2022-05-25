@@ -3,7 +3,7 @@ CREATE TABLE Guest
      Name           NVARCHAR2 (50) NOT NULL,
      Surname        NVARCHAR2 (50) NOT NULL,
      Phone_number   NUMBER (11),
-     Email          NVARCHAR2 (25),
+     Email          NVARCHAR2 (50),
      PESEL          NUMBER (11)
     );
      
@@ -20,7 +20,7 @@ CREATE TABLE Maid
      Name           NVARCHAR2 (50) NOT NULL,
      Surname        NVARCHAR2 (50) NOT NULL,
      Phone_number   NUMBER (11),
-     Email          NVARCHAR2 (25),
+     Email          NVARCHAR2 (50),
      PESEL          NUMBER (11) NOT NULL,
      Salary         NUMBER (6,2) NOT NULL
     );
@@ -92,5 +92,3 @@ ADD (CONSTRAINT reservation_pk
         FOREIGN KEY (PaymentID)
             REFERENCES Payment
     );
-    
-    
