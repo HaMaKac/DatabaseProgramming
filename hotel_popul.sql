@@ -366,3 +366,73 @@ INSERT INTO Payment VALUES
 
 REM ********RESERVATION********
 
+INSERT INTO Reservation VALUES
+(1,
+1,
+2,
+7,
+'22-May-22',
+'26-May-22');
+INSERT INTO Reservation VALUES
+(2,
+2,
+2,
+8,
+'22-May-22',
+'26-May-22');
+INSERT INTO Reservation VALUES
+(3,
+3,
+5,
+3,
+'24-Apr-22',
+'26-Apr-22');
+INSERT INTO Reservation VALUES
+(4,
+4,
+5,
+4,
+'24-Apr-22',
+'26-Apr-22');
+INSERT INTO Reservation VALUES
+(5,
+5,
+5,
+5,
+'24-Apr-22',
+'26-Apr-22');
+INSERT INTO Reservation VALUES
+(6,
+6,
+5,
+6,
+'24-Apr-22',
+'26-Apr-22');
+INSERT INTO Reservation VALUES
+(7,
+7,
+1,
+1,
+'14-May-21',
+'20-May-21');
+INSERT INTO Reservation VALUES
+(8,
+8,
+1,
+2,
+'14-May-21',
+'20-May-21');
+INSERT INTO Reservation VALUES
+(9,
+9,
+25,
+9,
+'27-Mar-22',
+'30-Mar-22');
+INSERT INTO Reservation VALUES
+(10,
+10,
+25,
+10,
+'27-Mar-22',
+'30-Mar-22');
