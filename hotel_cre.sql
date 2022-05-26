@@ -73,7 +73,8 @@ CREATE TABLE Reservation
      RoomID         NUMBER (6) NOT NULL,
      PaymentID      NUMBER (6) NOT NULL,
      Start_date     DATE,
-     End_date       DATE
+     End_date       DATE,
+     People         NUMBER (2) NOT NULL
     );
      
 CREATE UNIQUE INDEX reservation_pk
