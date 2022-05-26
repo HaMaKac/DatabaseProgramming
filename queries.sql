@@ -21,6 +21,9 @@ SELECT End_date FROM Reservation WHERE End_date > SYSDATE ;
 REM 10
 SELECT AVG(End_date-Start_date) FROM Reservation;
 
+CREATE OR REPLACE PACKAGE pkg_Hotel IS
+
+
 REM *****PROCEDURES*****
 REM 1
 SET SERVEROUTPUT ON
@@ -104,3 +107,5 @@ BEGIN
 promotion(10,100);
 END;
 SELECT * FROM Maid;
+
+END pkg_Hotel;

@@ -76,6 +76,9 @@ VALUES (10, 10, 25, 10, '03-JUN-22', '04-JUN-22', 2);
 
 SELECT * FROM Reservation;
 
+CREATE OR REPLACE PACKAGE BODY pkg_Hotel IS
+
+
 -- Functions
 -- 1
 CREATE OR REPLACE FUNCTION CONVERT_CURRENCY(
@@ -139,6 +142,9 @@ EXCEPTION
     
 END COUNT_DIALING_CODE;
 
+
+END pkg_Hotel;
+
 --Function tests
 -- 1
 BEGIN
@@ -150,3 +156,5 @@ BEGIN
 	DBMS_OUTPUT.PUT_LINE('Results for +48: ' || COUNT_DIALING_CODE('+48'));
 	DBMS_OUTPUT.PUT_LINE('Results for +42: ' || COUNT_DIALING_CODE('+42'));
 END;
+
+
