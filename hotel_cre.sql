@@ -2,7 +2,7 @@ CREATE TABLE Guest
     (GuestID        NUMBER (6) NOT NULL,
      Name           NVARCHAR2 (50) NOT NULL,
      Surname        NVARCHAR2 (50) NOT NULL,
-     Phone_number   NUMBER (11),
+     Phone_number   NVARCHAR2 (12),
      Email          NVARCHAR2 (50),
      PESEL          NUMBER (11)
     );
@@ -19,7 +19,7 @@ CREATE TABLE Maid
     (MaidID         NUMBER (6) NOT NULL,
      Name           NVARCHAR2 (50) NOT NULL,
      Surname        NVARCHAR2 (50) NOT NULL,
-     Phone_number   NUMBER (11),
+     Phone_number   NVARCHAR2 (12),
      Email          NVARCHAR2 (50),
      PESEL          NUMBER (11) NOT NULL,
      Salary         NUMBER (6,2) NOT NULL
