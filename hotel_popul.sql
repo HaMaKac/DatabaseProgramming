@@ -315,53 +315,53 @@ REM ********PAYMENT********
 INSERT INTO Payment VALUES
 (1,
 130.00,
-'20-May-22',
-'18-May-22');
+'17-Apr-22',
+'14-Apr-22');
 INSERT INTO Payment VALUES
 (2,
 130.01,
-'20-May-22',
-'18-May-22');
+'25-Apr-22',
+'25-Apr-22');
 INSERT INTO Payment VALUES
 (3,
 199.99,
-'22-Apr-22',
-'20-Apr-22');
+'01-May-22',
+'30-Apr-22');
 INSERT INTO Payment VALUES
 (4,
 199.99,
-'22-Apr-22',
-'20-Apr-22');
+'01-May-22',
+'27-Apr-22');
 INSERT INTO Payment VALUES
 (5,
 150.00,
-'22-Apr-22',
-'20-Apr-22');
+'13-May-22',
+'13-May-22');
 INSERT INTO Payment VALUES
 (6,
 150.00,
-'22-Apr-22',
-'20-Apr-22');
+'23-May-22',
+'22-May-22');
 INSERT INTO Payment VALUES
 (7,
 120.00,
-'12-May-22',
-'10-May-21');
+'23-May-21',
+'21-May-21');
 INSERT INTO Payment VALUES
 (8,
 120.00,
-'12-May-21',
-'11-May-21');
+'28-May-21',
+'26-May-21');
 INSERT INTO Payment VALUES
 (9,
 300.00,
-'25-Mar-22',
-'22-Mar-22');
+'29-May-22',
+NULL);
 INSERT INTO Payment VALUES
 (10,
 300.00,
-'25-Mar-22',
-'23-Mar-22');
+'03-Jun-22',
+NULL);
 
 
 REM ********RESERVATION********
@@ -370,69 +370,79 @@ INSERT INTO Reservation VALUES
 (1,
 1,
 2,
-7,
-'22-May-22',
-'26-May-22');
+1,
+'17-Apr-22',
+'20-Apr-22',
+2);
 INSERT INTO Reservation VALUES
 (2,
 2,
+4,
 2,
-8,
-'22-May-22',
-'26-May-22');
+'25-Apr-22',
+'29-Apr-22',
+3);
 INSERT INTO Reservation VALUES
 (3,
 3,
 5,
 3,
-'24-Apr-22',
-'26-Apr-22');
+'01-May-22',
+'03-May-22',
+4);
 INSERT INTO Reservation VALUES
 (4,
 4,
-5,
+2,
 4,
-'24-Apr-22',
-'26-Apr-22');
+'01-May-22',
+'03-May-22',
+1);
 INSERT INTO Reservation VALUES
 (5,
 5,
+16,
 5,
-5,
-'24-Apr-22',
-'26-Apr-22');
+'13-May-22',
+'16-May-22',
+4);
 INSERT INTO Reservation VALUES
 (6,
 6,
-5,
+17,
 6,
-'24-Apr-22',
-'26-Apr-22');
+'23-May-22',
+'25-May-22',
+3);
 INSERT INTO Reservation VALUES
 (7,
 7,
 1,
-1,
-'14-May-21',
-'20-May-21');
+7,
+'23-May-21',
+'26-May-21',
+2);
 INSERT INTO Reservation VALUES
 (8,
 8,
-1,
-2,
-'14-May-21',
-'20-May-21');
+25,
+8,
+'28-May-21',
+'31-May-21',
+2);
 INSERT INTO Reservation VALUES
 (9,
 9,
-25,
+17,
 9,
-'27-Mar-22',
-'30-Mar-22');
+'29-May-22',
+'30-May-22',
+2);
 INSERT INTO Reservation VALUES
 (10,
 10,
 25,
 10,
-'27-Mar-22',
-'30-Mar-22');
+'03-Jun-22',
+'04-Jun-22',
+1);
