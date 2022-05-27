@@ -4,6 +4,8 @@
 
 ## Project topic: *Hotel*
 
+![Diagram](https://user-images.githubusercontent.com/50404753/170696433-009ac6e8-a381-4433-9fc0-7b73163d0e16.png)
+
 ### Task description
 
 - [x] At least 5 tables should be defined.
