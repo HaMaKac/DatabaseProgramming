@@ -11,7 +11,7 @@ SELECT DISTINCT GuestID DISTINCT Name, DISTINCT Surname FROM Guest;
 REM 5
 SELECT MAX(Paid_date) FROM Payment;
 REM 6
-
+SELECT MAX(Fee), MIN(Fee) FROM Payment;
 REM 7
 SELECT PaymentID FROM Payment WHERE Paid_date IS NULL;
 REM 8

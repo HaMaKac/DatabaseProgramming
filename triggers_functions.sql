@@ -67,18 +67,6 @@ EXCEPTION
         raise_application_error(-20000, 'Error');
 END;
 
--- Trigger tests
-DELETE FROM RESERVATION
-WHERE reservationid = 10;
-
-INSERT INTO Reservation(reservationid, guestid, roomid, paymentid, start_date, end_date, people) 
-VALUES (10, 10, 25, 10, '03-JUN-22', '04-JUN-22', 2);
-
-SELECT * FROM Reservation;
-
-CREATE OR REPLACE PACKAGE BODY pkg_Hotel IS
-
-
 -- Functions
 -- 1
 CREATE OR REPLACE FUNCTION CONVERT_CURRENCY(
@@ -156,5 +144,3 @@ BEGIN
 	DBMS_OUTPUT.PUT_LINE('Results for +48: ' || COUNT_DIALING_CODE('+48'));
 	DBMS_OUTPUT.PUT_LINE('Results for +42: ' || COUNT_DIALING_CODE('+42'));
 END;
-
-
